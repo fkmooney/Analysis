@@ -1,8 +1,6 @@
 ## Things to do
 
 map of route<br>
-graph with zone striped horizontally<br>
-
 add temperature
 
 ## For aggregated feeds
