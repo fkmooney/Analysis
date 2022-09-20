@@ -1,8 +1,8 @@
 ## Things to do
 
-map of route<br>
 
-## For aggregated feeds
+
+### For aggregated feeds
 
 improvement over time for same rides (avg speed, zone analysis, lap time)<br>
 
