@@ -1,6 +1,7 @@
 ## Things to do
 
-
+create web interface: 
+https://stackoverflow.com/questions/49015957/how-to-get-python-graph-output-into-html-webpage-directly
 
 ### For aggregated feeds
 
