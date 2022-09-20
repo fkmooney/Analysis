@@ -1,7 +1,6 @@
 ## Things to do
 
 map of route<br>
-add temperature
 
 ## For aggregated feeds
 
