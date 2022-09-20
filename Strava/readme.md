@@ -1,3 +1,6 @@
+## Purpose
+Creating custom analytics and visualizations based on activty data exported from Strava. Strava allows for the export of GPX files, which contain the tracking data for individual activities. By analyzing this using Python, we can create custom insights not found through Strava's interface.
+
 ## Things to do
 
 create web interface:<br> 
