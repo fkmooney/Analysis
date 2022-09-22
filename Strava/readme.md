@@ -8,7 +8,13 @@ https://stackoverflow.com/questions/49015957/how-to-get-python-graph-output-into
 
 ### For aggregated feeds
 
-improvement over time for same rides (avg speed, zone analysis, lap time)<br>
+improvement over time for same rides:
+ - avg speed <br>
+ - zone analysis <br>
+ - distance vs date scatter plot with size for elevation gain<br>
+ 
+### Inspiration:
+https://veloviewer.com/<br>
 
 https://marcusvolz.com/strava/<br>
 A GitHub style calendar showing daily distance in kilometres.<br>
@@ -17,6 +23,5 @@ plot on map every strava route starting from home<br>
 annual retrospective<br>
 maxes and totalsfor year<br>
 
-https://veloviewer.com/<br>
-distance vs date scatter plot with size for elevation gain<br>
+
 
