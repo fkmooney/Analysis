@@ -17,11 +17,11 @@ improvement over time for same rides:
 https://veloviewer.com/<br>
 
 https://marcusvolz.com/strava/<br>
-A GitHub style calendar showing daily distance in kilometres.<br>
-Each run is a circle. Run distance is mapped to circle area. speed is color<br>
-plot on map every strava route starting from home<br>
-annual retrospective<br>
-maxes and totalsfor year<br>
+ - A GitHub style calendar showing daily distance in kilometres.<br>
+ - Each run is a circle. Run distance is mapped to circle area. speed is color<br>
+ - plot on map every strava route starting from home<br>
+ - annual retrospective<br>
+ - maxes and totalsfor year<br>
 
 
 
