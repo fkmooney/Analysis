@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block title %}Strava Activity Analysis{% endblock %}
+{% block content %}
+    <br>
+    <h3>Summary Information</h3>
+    <div class="row">
+  		<div class="column">
+  				Activity Name: {{Activity_Name}}<br>
+				Min Elevation (ft): {{Min_Elevation}}<br>
+				Max Elevation (ft): {{Max_Elevation}}<br>
+				Moving Time (min): {{Moving_Time}}<br>
+				Stopped Time (min): {{Stopped_Time}}<br>
+				Moving Distance (miles): {{Moving_Distance}}<br>
+				Stopped Distance (miles): {{Stopped_Distance}}<br>
+				Max Speed (mph): {{Max_Speed}}<br>
+				Avg Speed (mph): {{Avg_Speed}}<br>
+				Max HR: {{Max_HR}}<br>
+				Avg HR: {{Avg_HR}}<br>
+
+  		</div>
+ 		<div class="column">
+ 				Weather Summary: {{Weather_Summary}}<br>
+				Temperature: {{Temperature}}<br>
+				Feels Like: {{Feels_Like}}<br>
+				Humidity: {{Humidity}}<br>
+				Windspeed: {{Windspeed}}<br>
+				Precip Intensity: {{Precip_Intensity}}<br>
+ 		</div>
+	</div>
+
+    <br>
+    <h3>Speed vs Heart Rate vs Elevation</h3>
+
+    <img src='data:image/png;base64,{{graph1}}'/>
+    <br>
+    <h3>Heart Rate</h3>
+    <div class="row">
+  		<div class="column">
+    		<img src='data:image/png;base64,{{graph2}}'/>
+		<div/>
+		<div class="column">
+    		<img src='data:image/png;base64,{{graph3}}'/>
+    	<div/>
+	<div/>
+    <img src='data:image/png;base64,{{graph4}}'/>
+{% endblock %}
