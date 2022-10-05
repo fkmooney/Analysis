@@ -3,13 +3,7 @@ Creating custom analytics and visualizations based on activty data exported from
 
 ## Things to do
 
-create web interface:<br> 
- - have template site on https://kempton.pythonanywhere.com/ <br>
- - need to put html structure together to hold graphs <br> 
-
-Additional info: <br>
-https://www.techwithtim.net/tutorials/flask/html-templates/<br>
-https://stackoverflow.com/questions/49015957/how-to-get-python-graph-output-into-html-webpage-directly
+built out on running off local
 
 ### For aggregated feeds
 
