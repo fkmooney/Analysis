@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Weather in Brooklyn{% endblock %}
+{% block content %}
+    <br>
+    <h2>This site provides weather specifically for Brooklyn NY.</h2>
+    <br>
+    <div class="forecast">
+    {{ forecast|safe }}
+    </div>
+    <br>
+    <div class="forecastHourly">
+    {{ forecastHourly|safe }}
+    </div>
+    <br>
+
+{% endblock %}
