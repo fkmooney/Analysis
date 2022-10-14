@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Extended Weather{% endblock %}
+{% block content %}
+
+<style>
+div.summary {
+  padding-left: 20px;
+}
+
+div.forecast {
+  padding-left: 20px;
+}
+</style>
+
+
+    <div class="summary">
+    <h2>Here is the extended forecast for Brooklyn.</h2>
+    </div>
+    <br>
+    <div class="forecast">
+    {{ forecast|safe }}
+    </div>
+    <br>
+
+{% endblock %}
