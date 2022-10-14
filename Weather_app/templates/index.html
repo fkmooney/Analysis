@@ -1,16 +1,29 @@
 {% extends "base.html" %}
-{% block title %}Weather in Brooklyn{% endblock %}
+{% block title %}Hourly Weather{% endblock %}
 {% block content %}
-    <br>
-    <h2>This site provides weather specifically for Brooklyn NY.</h2>
-    <br>
-    <div class="forecast">
-    {{ forecast|safe }}
+<style>
+div.summary {
+  padding-left: 20px;
+}
+
+div.forecastHourly {
+  padding-left: 20px;
+}
+</style>
+
+    <div class="summary">
+    <h2>{{ Temp }} {{curr_summary}}</h2>
+
+    Humidity: {{ Humidity }}  &nbsp;&nbsp;&nbsp;
+    Barometer: {{ Barometer}} &nbsp;&nbsp;&nbsp;
+    Dewpoint: {{ Dewpoint }}  &nbsp;&nbsp;&nbsp;
+    Visibility: {{ Visibility }}
     </div>
+
     <br>
     <div class="forecastHourly">
-    {{ forecastHourly|safe }}
-    </div>
-    <br>
+        {{ forecastHourly|safe }}
+
+
 
 {% endblock %}
