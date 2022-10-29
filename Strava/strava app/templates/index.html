@@ -1,13 +1,21 @@
 {% extends "base.html" %}
 {% block title %}Strava Cycling Activity Analysis{% endblock %}
 {% block content %}
+
+<style>
+div.upload {
+  padding-left: 20px;
+}
+</style>
+
     <br>
+    <div class="upload">
     <h2>This site performs a cycling specific analysis on Strava activity data.</h2>
     <br>
 
     <h3>Upload File</h3>
     Upload your gpx file below to see an analysis of your activity.<br>
-    The gpx file for your activity can be downloaded from Strava.<br> 
+    The gpx file for your activity can be downloaded from Strava.<br>
     Click on the "..." icon on the activity's Strava page.
     <br>
     <br>
@@ -16,4 +24,9 @@
       <input type=file name=file>
       <input type=submit value=Upload>
     </form>
+    <br>
+    <br>
+    (Files may take a moment to process once you click the upload button, please be patient.)
+
+    <div/>
 {% endblock %}
