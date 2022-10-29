@@ -1,7 +1,17 @@
 {% extends "base.html" %}
 {% block title %}Strava Activity Analysis{% endblock %}
 {% block content %}
+
+<style>
+div.summary {
+  padding-left: 20px;
+}
+
+</style>
+
+
     <br>
+    <div class="summary">
     <h3>Summary Information</h3>
     <div class="row">
   		<div class="column">
@@ -10,8 +20,7 @@
 				Max Elevation (ft): {{Max_Elevation}}<br>
 				Moving Time (min): {{Moving_Time}}<br>
 				Stopped Time (min): {{Stopped_Time}}<br>
-				Moving Distance (miles): {{Moving_Distance}}<br>
-				Stopped Distance (miles): {{Stopped_Distance}}<br>
+				Distance (miles): {{Total_Distance}}<br>
 				Max Speed (mph): {{Max_Speed}}<br>
 				Avg Speed (mph): {{Avg_Speed}}<br>
 				Max HR: {{Max_HR}}<br>
@@ -42,5 +51,7 @@
     		<img src='data:image/png;base64,{{graph3}}'/>
     	<div/>
 	<div/>
+
     <img src='data:image/png;base64,{{graph4}}'/>
+    <div/>
 {% endblock %}
