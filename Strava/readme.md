@@ -1,8 +1,8 @@
 ## Purpose
 Creating custom analytics and visualizations based on activty data exported from Strava. Strava allows for the export of GPX files, which contain the tracking data for individual activities. By analyzing this using Python, we can create custom insights not found through Strava's interface.
 
-There are multiple Jupyter Notebooks that perfrom different analyses.
-There is also a web app (can be run off a local server if needed).
+There are multiple Jupyter Notebooks that perfrom different analyses. <br>
+There is also a web app located at https://kempton.pythonanywhere.com
 
 ## Things to do
 
