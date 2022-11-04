@@ -2,10 +2,11 @@
 Creating custom analytics and visualizations based on activty data exported from Strava. Strava allows for the export of GPX files, which contain the tracking data for individual activities. By analyzing this using Python, we can create custom insights not found through Strava's interface.
 
 There are multiple Jupyter Notebooks that perfrom different analyses. <br>
-There is also a web app located at https://kempton.pythonanywhere.com
 
-For example, one maps previous rides:
-<img src="https://github.com/fkmooney/Non-Work-Analyses/Strava/map.png" width="600" >
+
+For example, one maps previous rides:<br>
+<img src="https://github.com/fkmooney/Non-Work-Analyses/blob/main/Strava/map.png?raw=true" width="400" ><br>
+There is also a web app located at https://kempton.pythonanywhere.com
 
 ## Things to do
 
