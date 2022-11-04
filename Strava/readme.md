@@ -4,6 +4,9 @@ Creating custom analytics and visualizations based on activty data exported from
 There are multiple Jupyter Notebooks that perfrom different analyses. <br>
 There is also a web app located at https://kempton.pythonanywhere.com
 
+For example, one maps previous rides:
+<img src="https://github.com/fkmooney/Non-Work-Analyses/Strava/map.png" width="600" >
+
 ## Things to do
 
 
