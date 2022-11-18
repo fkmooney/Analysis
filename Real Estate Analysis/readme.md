@@ -1,4 +1,4 @@
-# Homebuying and Real Estate Analysis
+# Real Estate Analysis for Homebuying
 
 ## Links to Fred Data: <br>
  
