@@ -2,7 +2,7 @@
 
 ## Links to Fred Data: <br>
  
-Market Hotness: Median Listing Price in utchess County, NY: https://fred.stlouisfed.org/series/MELIPRCOUNTY36027 <br>
+Market Hotness: Median Listing Price in Dutchess County, NY: https://fred.stlouisfed.org/series/MELIPRCOUNTY36027 <br>
 Market Hotness: Median Listing Price in Fairfield County, CT: https://fred.stlouisfed.org/series/MELIPRCOUNTY9001 <br>
 <br>
 Median Sales Price of Existing Homes in Northeast Census Region: https://fred.stlouisfed.org/series/HOSMEDUSNEM052N <br>
