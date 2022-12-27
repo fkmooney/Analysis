@@ -1,0 +1,66 @@
+# Making 3d Relief Maps
+
+create relief maps with Blender, open source 3d animation studio (Blender ahs been downloaded)
+
+Data Sources:
+ Good source of nicer looking old maps: https://www.loc.gov/item/73697195/
+Can get old topo maps from: https://ngmdb.usgs.gov/topoview/
+Get elevation data to create hegihmap: https://www.usgs.gov/core-science-systems/ngp/3dep
+international elevation from here: https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/elevation/copernicus-dem/elevation
+
+Inspriation:
+COlored Jpana map using QGIS and Blender: https://github.com/joewdavies/geoblender
+Scott Reinhard  take ideas and applies to vintage maps: see Amazing place 
+Sean conway 
+Daniel Hoffman: http://www.mountaincartography.org/activities/workshops/banff_canada/papers/huffman.pdf
+3 part lesson on vitage map (Uses argis, not QGIS) - https://www.youtube.com/watch?v=390MLX1Wuwk
+
+Basic Process without blender:
+1. get old topo
+2. Assign coordinates to old maps in QGIS using Raster: Georeferencer (use this to open old topo)
+3. create a new layer and open output from above in new layer
+4. add esri topo layer
+5. make old map layer transparent
+6. play with properties like gamma of esri to make more dramatic
+
+
+Blender Process:
+Dan Hoffman Tutorial create elevation map from heightmap: https://somethingaboutmaps.wordpress.com/2017/11/16/creating-shaded-relief-in-blender/
+
+1. get old topo
+2. get elevation data from USGS, may need several tiles
+3. import into qgis
+4. follow dan hoffman instructions, remember to:
+	- reproject
+	- output files should be less than 1 million kb tiff files
+5. import height map into blender template file (from finger lakes)
+6. add topo from qgis to it
+7. check setting per dan hoffman instructions
+8 render image
+9 save image
+10. Use gimp to past new relieft over old map in old topo file.
+	First scale up layer a little to have room to transform it. If render of new releif has extra border, can use that to ensure old map is covered up
+	then use scale to get to rigth size
+	if necessary, trim border off new render, but dont crop as that changes size of layer
+	then use Cage Transform to adjust for projection. need to move visible map over old, which may entail moving cage points further than you might think
+	cage transform can leave artifacts, so can select those and remove them.
+	Finally, use path  tool to draw a thick border around render to cover up issues. 
+	
+
+
+
+apply image texture to plane: 1:15 in video
+https://www.youtube.com/watch?v=rzXNZkEoTAk
+
+
+
+
+
+
+Blender tutorial w google maps
+https://www.youtube.com/watch?v=Mj7Z1P2hUWk
+
+more maps w blender, extension of Hoffman tutorial to colorize map
+https://www.youtube.com/watch?v=AGczLhQg8yI
+https://peteratwoodprojects.wordpress.com/shading-relief-maps-in-blender/
+
