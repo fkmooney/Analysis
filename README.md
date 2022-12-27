@@ -1,3 +1,3 @@
-# Analysis and Data Gathering
+# Non-Work-Analyses
 
-A general repository
+A general repository for analysis and data gathering
