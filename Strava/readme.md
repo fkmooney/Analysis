@@ -7,7 +7,7 @@ For example, one maps previous rides:<br>
 There is also a web app located at https://kempton.pythonanywhere.com
 
 ## Things to do
-
+Show pregression of Personal Bests
 
 ### For aggregated feeds
 
@@ -18,7 +18,11 @@ improvement over time for same rides:
  
 ### Inspiration:
 https://veloviewer.com/<br>
-
+[Statshunter](https://www.statshunters.com/badges)<br>
+Elevate for Strava <br>
+https://www.strafforts.com/athletes/3455708?view=best-efforts&distance=10k <br>
+https://chrome.google.com/webstore/detail/sauce-for-strava/eigiefcapdcdmncdghkeahgfmnobigha?hl=en <br>
+https://www.marcellobrivio.com/projects/strava-toolbox/ <br>
 https://marcusvolz.com/strava/<br>
  - A GitHub style calendar showing daily distance in kilometres.<br>
  - Each run is a circle. Run distance is mapped to circle area. speed is color<br>
